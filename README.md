@@ -29,8 +29,7 @@ With the gaming environment booming on Polkadot, we can definitely add more feat
 We can also have different balls with special powers and players can buy them from a marketplace to use those balls when they play.
 
 ## Demo Video - 
-
-
+https://www.loom.com/share/a4761e428c594795b851c23b20ea753d?sid=af3a25f0-83e2-4881-838d-443873bad181
 
 ## Game Flow - 
 
