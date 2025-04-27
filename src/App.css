@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.siteName {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.connectWalletButton {
+  background: linear-gradient(to right, #4ade80, #16a34a);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.connectWalletButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(74, 222, 128, 0.6);
+}
+
+.countdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  color: white;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+.platform {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.ball {
+  position: absolute;
+  transform-style: preserve-3d;
+}
