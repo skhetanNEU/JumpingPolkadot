@@ -35,19 +35,28 @@ We can also have different balls with special powers and players can buy them fr
 ## Game Flow - 
 
 ### 1. Connect to metamask
+![Screenshot 2025-04-26 at 10 05 10 PM](https://github.com/user-attachments/assets/57ce91e0-90cd-4bb5-9a59-60f941874c63)
+
+
+![Screenshot 2025-04-26 at 10 05 28 PM](https://github.com/user-attachments/assets/528a4d30-454d-48df-99bb-9eca608dcfc5)
+
 
 
 ### 2. When we click on Play, metamask transaction pop up to pay the game fees of 1 DOT and start the game
 
-
-### 3. As soon as the transaction is completed, game starts within 3 seconds and players has to aim to reach the highest point they can reach with the ball
-
-
-### 4. Use moving bricks and fixed bricks on each level to move up
+![Screenshot 2025-04-26 at 10 05 42 PM](https://github.com/user-attachments/assets/5779d87e-93f8-471e-955d-cebb0f2e5f7c)
 
 
-### 5. When the game ends, if player has crossed a score of 5000, a metamask pop up will show to confirm on payback transaction. Else, game ends
+### 3. As soon as the transaction is completed, game starts within 3 seconds and players has to aim to reach the highest point they can reach with the ball. Use moving bricks and fixed bricks on each level to move up
 
+
+![Screenshot 2025-04-26 at 10 06 02 PM](https://github.com/user-attachments/assets/c932de42-cc0d-44a5-9ed4-518722ee304e)
+
+
+
+### 4. When the game ends, if player has crossed a score of 5000, a metamask pop up will show to confirm on payback transaction. Else, game ends
+
+![Screenshot 2025-04-26 at 10 06 33 PM](https://github.com/user-attachments/assets/6e10e78c-80d8-4866-85e2-e1881abb6c06)
 
 
 
