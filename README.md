@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# JumpingPolkadot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
+This is a jumping polkadot game built on Polkadot (currently with Shibuya Testnet). In this game, players can pay 1 DOT and play the game and win prizes if they are able to reach certain heights with the polkadot (ball in the game)
 
-## Available Scripts
+## Description
+The frontend of the game is built with React and the smart contract is built with solidity.
+Currently, the smart contract is deployed on the Shibuya Testnet but can be easily deployed on the mainnet following the same method.
 
-In the project directory, you can run:
+When the game starts, it will show up a "Play" button. When user clicks on it, it will try to initiate a transaction to pay 1 DOT as a fees to play the game.
 
-### `npm start`
+If the wallet is not connected, it will first try to connect the wallet and then try out the transaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once the fees is paid and the transaction is successful, it will start the game within 3 seconds and the player should aim to reach the heighest point by moving the ball using bricks as support in each level.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If the player is able to cross a score of 5000, they will atleast get back the playing fees they paid i.e 1 DOT but if they are able to cross a score of 10000, they will get a double amount back i.e 2 DOT.
 
-### `npm test`
+The game ends when the ball falls into the pit and the player has an option to play it again by paying the fees of 1 DOT again to play the game and get a chance to win double the money.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technical Description
+Game built using React, HTML, JavaScript, CSS
+Smart contract built using Solidity
+Contract deployed on Shibuya Testnet for now
+With the gaming environment booming on Polkadot, we can definitely add more features in the future to make the game more interesting such as -  
+1. Multiplayer game where we compete against a friend/another player and whoever wins get 1.8 times the amount and 0.2 goes to the contract making it more profitable for the game owner.
+2. Adding features such as boost power or high jumper power for certain durations making the game more interesting.
+3. Having leaderboards and arranging weekly or monthly competitions with more prizes.
 
-### `npm run build`
+We can also have different balls with special powers and players can buy them from a marketplace to use those balls when they play.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo Video - 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Game Flow - 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Connect to metamask
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. When we click on Play, metamask transaction pop up to pay the game fees of 1 DOT and start the game
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### 3. As soon as the transaction is completed, game starts within 3 seconds and players has to aim to reach the highest point they can reach with the ball
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Use moving bricks and fixed bricks on each level to move up
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 5. When the game ends, if player has crossed a score of 5000, a metamask pop up will show to confirm on payback transaction. Else, game ends
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
