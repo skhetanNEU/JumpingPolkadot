@@ -58,6 +58,12 @@ https://www.loom.com/share/a4761e428c594795b851c23b20ea753d?sid=af3a25f0-83e2-48
 ![Screenshot 2025-04-26 at 10 06 33 PM](https://github.com/user-attachments/assets/6e10e78c-80d8-4866-85e2-e1881abb6c06)
 
 
+## Blockexplorer link - 
+I tried deploying my contract to Westend Asset Hub but even after multiple attempts and trying to reduce the contract size, I was still getting this error - 
+<img width="990" alt="Screenshot 2025-04-27 at 11 21 17 AM" src="https://github.com/user-attachments/assets/9cc843c3-0171-459d-bc9a-78f38781b117" />
 
+I tried getting help from the Mentor but he suggested to have it on Shibuya Testnet for now since Westend Asset Hub is not working as expected.
+Hence, deployed it on Shibuya testnet - 
+https://shibuya.subscan.io/account/0x02012969BC9c9428f877524C05e557d93792A9e4
 
 
